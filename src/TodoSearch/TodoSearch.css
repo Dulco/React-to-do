@@ -1,8 +1,11 @@
 .TodoSearch {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
     background: rgba(244, 216, 246, 0.45);
     border: 2px solid rgba(244, 216, 246, .25);
-    margin-top: 20px;
     height: 50px;
+    margin-top: 10px;
     width: 95%;
     font-size: 20px;
     text-align:left;

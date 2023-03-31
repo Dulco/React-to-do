@@ -23,7 +23,6 @@ function AppUI() {
         setOpenModal,
     } = React.useContext(TodoContext);
         return (
-            <React.Fragment>
                 <div className= 'main' >
                     
                     <TodoTitle/>
@@ -53,7 +52,6 @@ function AppUI() {
                     setOpenModal={setOpenModal}
                     />
                 </div>
-            </React.Fragment>
         );
 }
 
